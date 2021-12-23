@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+
+    height: 750px;
+    padding-top: 0;
+    background-image: url(https://skygask.github.io/images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.top{
+    width:1300px;
+    height: 100px;
+    margin: 0 auto;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 10%;
+    
+}
+.shadow{
+    background-color:#11749e;
+    box-shadow:10px 15px white;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left:10% ;
+
+}
+li a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+li a:hover{
+    border-bottom: #11749e solid 4px;
+    width: 100%;
+    padding-bottom: 33px;
+}
+.icons {
+  
+    transform: translate(-50%, 0%);
+    
+}
+.icons img{
+    margin: 10px;
+}
+.maain{
+    color: white;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+    list-style-type: none;
+    font-family: "gotham-medium";
+    text-transform: uppercase;
+    position: relative;
+    
+}
+#first{
+    color:#11749e ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "gotham-medium";
+    font-size: 25px;
+    justify-content: space-around;
+    letter-spacing: 23px;
+    margin-top:3%;
+    
+}
+.box2{
+    background-color: #11749e;
+    height: 700px;
+
+}
+.scnd{
+   color: #fff;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 130px;
+   vertical-align: baseline;
+   font-size: 30px;
+   position: relative;
+   font-family: sans-serif;
+   
+
+}
+.box2 h2::before{
+    content: attr(data-letter);
+    position: absolute;
+    display: inline-block;
+    font-family:sans-serif;
+    font-size: 300px;
+    opacity: .4;
+    left: 40%;
+    top: -15%;
+   
+}
+.block{
+    padding-top: 12%;
+    box-sizing: border-box;
+    color: white;
+    max-width: 100%;
+    display: flex;
+    
+}
+.item1{
+     display: inline-block;
+     text-align: center;
+    height: 320px;
+    
+     align-items: center;
+     justify-content: space-between;
+    
+     position: relative;
+
+}
+.item1 h4{
+    font-family: "gotham-medium";
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 0 30px 0;
+    font-weight: bold;
+}
+.item1 p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.item1{
+    width: 24%;
+    margin-right: 15px;
+}
+.item1:nth-child(2){
+    margin-top: 5px;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3184aa;
+    margin-left: 170px;
+}
+span{
+    margin-top: 20px;
+}
+
+.icons:nth-child(3){
+    margin-top: 3px;
+}
+
+.container2{
+    display: flex;
+    width: 1350px;
+    height: 100vh;
+    
+}
+.tablo{
+    width: 475px;
+    background-color: #222222;
+    float: left;
+    height: 247px;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+}
+.image{
+    width: 675px;
+    background-image: url(https://skygask.github.io/images/news-area-top.jpg);
+    
+    height: 447px;
+    float: left;
+}
+.two2{
+    background-image: url(https://skygask.github.io/images/news-area-bottom.jpg);
+}
+
+.two{
+    background-color: #fff;
+    color: #222;
+}
+
+.tablotex{
+    line-height: 30px;
+    font-size: 15px;
+}
